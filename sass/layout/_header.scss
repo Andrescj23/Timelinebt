@@ -1,0 +1,25 @@
+.header {
+    height: 55vh;
+    background-image: linear-gradient(to right bottom, black, #443d75);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    position: relative;
+}
+
+.text-box {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-20%, -10%);
+    text-align: center;
+}
+
+.title-one {
+    text-transform: uppercase;
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    animation-name: upAnimation;
+    animation-duration: 3s;
+}

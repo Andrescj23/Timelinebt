@@ -1,0 +1,35 @@
+@keyframes leftAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    80% {
+        transform: translateX(7px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes upAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes bottonAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-10);
+    }
+}

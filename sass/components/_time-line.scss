@@ -1,0 +1,32 @@
+.center-time {
+    top: 0%;
+    left: 50%;
+    display: inline-block;
+}
+
+.title-timeline {
+    text-align: center;
+    margin: 3em 0 0 0;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.fix-number {
+    position: absolute;
+    left: 40%;
+    transform: translate(0%, 0%);
+    list-style: none;
+    text-align: center;
+}
+
+.radio-boton {
+    position: relative;
+}
+
+.date {
+    color: red;
+    margin-top: -10px;
+    top: 50%;
+    left: -158px;
+}
